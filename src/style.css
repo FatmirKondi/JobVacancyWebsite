@@ -1,0 +1,232 @@
+* {
+    background-color: white;
+    font-family: "Times New Roman" , "Calibri Light", "Comic Sans MS";
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    margin: 15px;
+}
+form { margin:auto; }
+
+header{
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    height: 200px;
+    border-radius: 20px;
+}
+
+section{
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    width: 60px;
+}
+
+li{
+    display: inline;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+button{
+    background-color: #108099;
+    color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.login_box {
+    margin-top: 50px;
+    height: 400px;
+    width: 600px;
+    border: 2px black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.register_box {
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    border: 5px black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.login_box .button{
+    background-color: #108099;
+    color: antiquewhite;
+    padding: 8px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.register_box .button{
+    background-color: #108099;
+    color: antiquewhite;
+    padding: 10px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.LoginForm{
+
+    width: 270px;
+    margin: auto;
+}
+
+.RegisterForm{
+
+    width: 270px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.goToRegister input{
+    color: mediumseagreen;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+.goToLogin input{
+    color: mediumseagreen;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+#descText{
+    height: 200px;
+    width: 300px;
+}
+
+.imageBox {
+    height: 350px;
+    width: 250px;
+    border: 1px black;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+#profilePicture {
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 50%;
+}
+
+#updatePicture {
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 50%;
+}
+
+#updatePicture input  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+#formBox {
+    height: 350px;
+    width: 550px;
+    border: 1px black;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#formBox input {
+    font-size: 16px;
+}
+
+.alignBox {
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#editButton {
+    margin-left: 950px;
+    border-radius: 10px;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+}
+
+th, td {
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+    background: antiquewhite;
+    color: #e05c5c;
+
+}
+
+th {
+    font-weight: bold;
+}
+
+#jobForm {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+#delButton {
+    float: right;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+#detailBox {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.detailsText {
+    margin-top: 20px;
+    margin-left: 15px;
+    border-left: 1px black;
+}
+
+#detailBox h1{
+    margin-top: 20px;
+    margin-left: 15px;
+    border: none;
+}
